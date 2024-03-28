@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../index.html">Volver al index</a>
+    <br>
+
+    <h3>Formularios</h3>
+
+    <!-- Formularios -->
+
+    <form action="#" method="post">
+        <table>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" name="nombre" type="text" placeholder="Escriba su nombre">
+            <br>
+            <label for="apellido">Apellido: </label>
+            <input id="apellido" name="apellido" type="text" placeholder="Escriba su apellido">
+            <br>
+            <label for="edad">Edad: </label>
+            <input id="edad" name="edad" type="number" placeholder="Escriba su edad">
+            <br>
+            <label for="direccion">Direccion: </label>
+            <input id="direccion" name="direccion" type="text" required placeholder="Escriba su direccion">
+            <br>
+            <label for="mail">Mail: </label>
+            <input id="mail" name="mail" type="email" placeholder="Escriba su mail">
+            <br>
+            <label for="password">Password: </label>
+            <input id="password" name="password" type="password" placeholder="Escriba su password">
+            <br>
+            <label for="fechaNac">Fecha de Nacimiento: </label>
+            <input id="fechaNac" name="fechaNac" type="date">
+            <hr>
+            <label for="archivo">Subir archivo: </label>
+            <input id="archivo" name="archivo" type="file">
+            <br>
+            <label for="rango">Rango: </label>
+            <input id="rango" name="rango" type="range">
+            <br>
+            <h4>Checkbox: </h4>
+            <input id="checkbox" name="checkbox" type="checkbox" value="1"> Matias
+            <input id="checkbox" name="checkbox" type="checkbox" value="2"> Gabriel
+            <input id="checkbox" name="checkbox" type="checkbox" value="3"> Sanchez
+            <br>
+            <h4>Radio: </h4>
+            <input id="Radio" name="Radio" type="radio" value="1"> Hombre
+            <input id="Radio" name="Radio" type="radio" value="2"> Mujer
+            <input id="Radio" name="Radio" type="radio" value="3"> Otro
+            <br>
+
+            <hr>
+
+            <fieldset>
+                <legend>Datos del Alumno</legend>
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" name="nombre" type="text" placeholder="Escriba su nombre">
+                <br>
+                <label for="apellido">Apellido: </label>
+                <input id="apellido" name="apellido" type="text" placeholder="Escriba su apellido">
+                <br>
+                <label for="fechaNac">Fecha de Nacimiento: </label>
+                <input id="fechaNac" name="fechaNac" type="date">
+                <br>
+                <label for="turno">Turno: </label>
+                <select id="turno" name="turno">
+                    <option value="1">Mañana</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Noche</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <label for="comentario">Agregue un comentario: </label>
+            <textarea id="comentario" name="comentario" rows="10" cols="40" placeholder="Agregue un comentario:"></textarea>
+
+            <br>
+            <label for="ciudad">Ciudad: </label>
+            <select id="ciudad" name="ciudad">
+                <optgroup label="Buenos Aires">
+                    <option>CABA</option>
+                    <option>Castelar</option>
+                </optgroup>
+                <optgroup label="Santa Fe">
+                    <option>Rosario</option>
+                </optgroup>
+            </select>
+            
+            <br>
+            <input type="submit" value="Enviar">
+
+                
+            <!-- Tambien pueden hacerse formularios en tablas -->
+            <tr>
+
+            </tr>
+
+
+        </table>
+
+        <!-- En el final debe tener un submit -->
+    </form>
+    
+</body>
+</html>
