@@ -1,0 +1,21 @@
+:root{
+    font-size: 22px;
+    /* Crear clases en :root para poder usar despues en css */
+    --color-primario:rgba(70, 187, 95, 0.63);
+}
+
+/* Imagen para el fondo */
+body{
+    background-image: url("../Img/Fondo.jpg");
+}
+
+/* Uso de la clase que cree */
+h1,h2,h3,p {
+    color: var(--color-primario);
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
